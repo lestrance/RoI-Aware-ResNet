@@ -21,7 +21,7 @@ Distributed under the The GNU General Public License v3.0. See `LICENSE.txt` for
 
 ## Author's Biography
 
-![SHUOHAN XUE](xue.png)
+![SHUOHAN XUE](charith_2022.jpg)
 ![SHUOHAN XUE](xue.png)
 
 <!-- ACKNOWLEDGMENTS -->
