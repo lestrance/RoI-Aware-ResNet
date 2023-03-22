@@ -2,6 +2,8 @@
 RoI-Aware ResNet for COVID-19 volumetric CT-Scans 
 
 
+## Pre=processing the DICOM Files
+As the origianl dataset [COVID-CT-MD](https://doi.org/10.1038/s41597-021-00900-3) comes in DICOM format that each DICOM folder corresponds to one 3D volume comprised of all 2D slices. Hence, the first step is to transfer the DICOM files into '.mat' file so they can be fed into MATLAB deep learning framework. The method is demonstrated in the code
 
 
 ## Pre-trained 3D ResNet Downloads
