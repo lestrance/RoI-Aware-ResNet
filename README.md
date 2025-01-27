@@ -45,25 +45,25 @@ Ensure that MATLAB has the following toolboxes installed:
 ### Data Preprocessing
 Prepare the volumetric CT scans by segmenting the lungs, resampling the volumes, and extracting salient slices. Use the MATLAB script provided:
 ```matlab
-run preprocess_data.m
+run('preprocess_data.m')
 ```
 
 ### Training the Model
 Train the RoI-aware 3D ResNet using the provided MATLAB code:
 ```matlab
-run train_model.m
+run('train_model.m')
 ```
 
 ### Evaluation
 Evaluate the trained model on the test set using:
 ```matlab
-run evaluate_model.m
+run('evaluate_model.m')
 ```
 
 ### Visualization
 Generate 3D Grad-CAM visualizations to interpret the predictions:
 ```matlab
-run visualize_gradcam.m
+run('visualize_gradcam.m')
 ```
 
 ## Results
@@ -78,16 +78,19 @@ The proposed RoI-aware 3D ResNet-101 achieved:
   - CAP: 80.0%
   - Normal: 97.1%
 
-For detailed results and confusion matrices, refer to the `results` folder.
+Refer to the `results` folder for detailed results and confusion matrices.
 
 ## Directory Structure
 ```
 .
-├── data/               # Raw and preprocessed data
-├── models/             # Pre-trained and fine-tuned models
-├── scripts/            # MATLAB scripts for training and evaluation
-├── results/            # Outputs, metrics, and visualizations
-├── requirements.txt    # Python dependencies
+├── data/               # Directory for input datasets and preprocessed data
+├── src/                # Core MATLAB source code for the project
+│   ├── preprocess/     # Scripts for data preprocessing
+│   ├── training/       # Training-related scripts
+│   ├── evaluation/     # Scripts for evaluation and metrics calculation
+│   ├── visualization/  # Scripts for 3D Grad-CAM and result visualization
+├── models/             # Directory for saving trained models
+├── results/            # Outputs including metrics, visualizations, and logs
 ├── LICENSE             # License information
 └── README.md           # Project documentation
 ```
