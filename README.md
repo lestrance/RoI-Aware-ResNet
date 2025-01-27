@@ -6,6 +6,9 @@ This repository contains the implementation of the Region-of-Interest (RoI) Awar
 
 > **S. Xue and C. Abhayaratne**, "Region-of-Interest Aware 3D ResNet for Classification of COVID-19 Chest Computerised Tomography Scans," *IEEE Access*, vol. 11, pp. 28856-28871, 2023. DOI: [10.1109/ACCESS.2023.3260632](https://doi.org/10.1109/ACCESS.2023.3260632).
 
+![Demonstration](Images/demo_01.png)
+
+
 ## Key Features
 
 - **RoI-Aware Architecture**: Incorporates RoI masking to enhance feature learning and improve classification accuracy.
