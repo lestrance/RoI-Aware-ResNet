@@ -8,6 +8,12 @@ This repository contains the implementation of the Region-of-Interest (RoI) Awar
 
 ![Demonstration](Images/demo_01.png)
 
+## Video Tutorial
+Learn how to apply advanced deep-learning models for medical imaging using MATLAB! Watch this step-by-step video tutorial to understand the implementation of the 3D ResNet and transfer learning techniques for CT scan classification.
+
+[![Watch the Tutorial on YouTube](https://img.youtube.com/vi/D4vjvxOPl7w/maxresdefault.jpg)](https://www.youtube.com/watch?v=D4vjvxOPl7w)
+
+
 
 ## Key Features
 
